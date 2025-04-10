@@ -195,6 +195,7 @@ function execute() {
         onClicked: function() {          
           if (bankPath) {
           studio.system.message("Bank path is: " + bankPath);
+          this.closeDialog(); 
       ;}  
 
           // Find the bank
@@ -232,7 +233,7 @@ function execute() {
         sizePolicy: studio.ui.sizePolicy.Fixed,
         items: items,
         onAccepted: function() {
-          // Additional logic to handle when the dialog is accepted
+          // spare for extra logic
         }
       });
     } else {

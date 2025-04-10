@@ -84,14 +84,13 @@ studio.menu.addMenuItem({
                                 min: 0, 
                                 max: labels.length - 1
                             });
-
-                             studio.system.message("Labeled parameter added with labels: " + labels.join(", "));
                             
-                            
-                            
+                            // studio.system.message("Labeled parameter added with labels: " + labels.join(", ")); 
+    
                         } catch (e) {
                             studio.system.message("Error adding parameter: " + e.message);
                         }
+                        this.closeDialog(); 
                     }
                 }
             ]
