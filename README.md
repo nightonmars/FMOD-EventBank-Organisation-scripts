@@ -16,3 +16,9 @@ How to use:
 https://github.com/user-attachments/assets/2c3a347f-1a35-4d16-abfa-fda6874c19f8
 
 
+Parameter settings for Label param
+
+https://github.com/user-attachments/assets/45edf209-40bb-4379-a18c-b904582018a4
+
+
+
